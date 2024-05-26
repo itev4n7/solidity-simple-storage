@@ -1,0 +1,39 @@
+{
+  "name": "ethers-storage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "yarn solcjs --bin --abi --include-path node_modules/ --base-path ./abi -o ./abi ./contracts/SimpleStorage.sol",
+    "run-node": "yarn hardhat node"
+  },
+  "author": "",
+  "license": "",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.12.1",
+    "solc": "^0.8.26"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.6",
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
+    "@nomicfoundation/hardhat-ignition": "^0.15.4",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.4",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.10",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.7",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.12.12",
+    "chai": "^4.4.1",
+    "hardhat": "^2.22.4",
+    "hardhat-gas-reporter": "^2.1.1",
+    "prettier": "^3.2.5",
+    "solidity-coverage": "^0.8.12",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.4.5"
+  }
+}

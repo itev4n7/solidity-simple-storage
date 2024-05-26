@@ -1,0 +1,25 @@
+# common
+node_modules/
+.env
+.vscode/
+.encryptedKey.json
+
+# abi folder files
+abi/*
+!abi/
+!abi/.gitkeep
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
