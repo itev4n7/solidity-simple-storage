@@ -3,6 +3,7 @@ node_modules/
 .env
 .vscode/
 .encryptedKey.json
+gas-report.txt
 
 # abi folder files
 abi/*
